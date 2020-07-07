@@ -33,14 +33,14 @@ npm install
 
 Next, copy env-example to .env and enter your information
 
-* `NEXMO_API_KEY`: <Your nexmo API>
-* `NEXMO_API_SECRET`: <Your nexmo API secret>
-* `NEXMO_APPLICATION_ID`: <Your nexmo app ID>
-* `NEXMO_APPLICATION_PRIVATE_KEY_PATH`: <The private key file location>
-* `FB_SENDER_ID`: <Your FB page id, linked to your nexmo app>
-* `FB_RECIPIENT_ID`: <The id of the facebook account you want to send messages to>
-* `FROM_NUMBER`: <Your nexmo vitual number>
-* `TO_NUMBER`: <Your regular phone number>
+* `NEXMO_API_KEY`: Your nexmo API
+* `NEXMO_API_SECRET`: Your nexmo API secret
+* `NEXMO_APPLICATION_ID`: Your nexmo app ID
+* `NEXMO_APPLICATION_PRIVATE_KEY_PATH`: The private key file location
+* `FB_SENDER_ID`: Your FB page id, linked to your nexmo app
+* `FB_RECIPIENT_ID`: The id of the facebook account you want to send messages to
+* `FROM_NUMBER`: Your nexmo vitual number
+* `TO_NUMBER`: Your regular phone number
 
 Start the application by running `node server.js`
 
