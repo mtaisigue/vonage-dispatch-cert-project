@@ -46,9 +46,9 @@ Start the application by running `node server.js`
 
 Start ngrok to make the webhooks available publicly by running `ngrok http 3000`
 
-Update the application webhooks with the url provided by ngrok plus /webhooks/inbound and /webhooks/status (e.g. http://ngrok_url/webhooks/inboud and http://ngrok_url/webhooks/status)
+Update the application webhooks with the url provided by ngrok plus `/webhooks/inbound` and `/webhooks/status` (e.g. `http://ngrok_url/webhooks/inboud` and `http://ngrok_url/webhooks/status`)
 
-Note: At this point as facebook user should start a conversation with the business, so from your narmal facebook account send a message to the bussiness page. This will start the conversation and also give you the real FB_RECIPIENT_ID to update that variable. after this stept is completed you shouls continue with the next step. 
+Note: At this point as facebook user should start a conversation with the business, so from your narmal facebook account send a message to the bussiness page. This will start the conversation and also give you the real `FB_RECIPIENT_ID` to update that variable. after this stept is completed you shouls continue with the next step. 
 
 To trigger the message, send a POST request to `webhooks/send` as follows
 
